@@ -1,0 +1,48 @@
+* { font-family: "Microsoft YaHei UI"; font-size: 13px; color: #203349; }
+QMainWindow, QWidget#surface { background: #edf3f6; }
+QFrame#header { background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #102337, stop:1 #123542); border: none; }
+QLabel#product { color: #ffffff; font-size: 22px; font-weight: 700; }
+QLabel#headnote { color: #a7bfd0; font-size: 12px; }
+QLabel#connection { background: #244554; color: #ebf7f8; padding: 6px 12px; border-radius: 12px; }
+QFrame#card, QFrame#toolbar { background: #ffffff; border: 1px solid #d7e2e8; border-radius: 13px; }
+QFrame#nav { background: #f8fbfc; border: 1px solid #d7e2e8; border-radius: 10px; }
+QFrame#tuneCard { background: #f3f8fa; border: 1px solid #dfeaf0; border-radius: 8px; }
+QLabel#section { font-size: 17px; color: #152a41; font-weight: 700; }
+QLabel#muted { color: #62768e; font-size: 12px; }
+QLabel#metric { color: #0b615d; font-size: 15px; font-weight: 700; }
+QLabel#motorState { font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 10px; background: #ebf1f6; color: #4d677f; }
+QLabel#motorState[state="running"] { background: #dcf6ec; color: #066452; }
+QLabel#motorState[state="busy"] { background: #fff0d8; color: #82510a; }
+QLabel#motorState[state="fault"] { background: #fde9eb; color: #963146; }
+QLabel#inlineNote { background: #eaf6f4; color: #285d59; border: 1px solid #d5ece8; border-radius: 7px; padding: 8px; font-size: 12px; }
+QLabel#alert { color: #a42634; font-weight: 600; }
+QPushButton { color: #253d56; background: #ffffff; min-height: 30px; border: 1px solid #ccd9e6; border-radius: 7px; padding: 0 12px; }
+QPushButton:hover { background: #eef5fb; border-color: #a6bbd1; }
+QPushButton:pressed { background: #dbe8f4; }
+QPushButton:disabled { color: #8799ad; border-color: #e0e7f0; background: #f4f7fa; }
+QPushButton#primary { color: #ffffff; background: #087b72; border-color: #087b72; font-weight: 600; }
+QPushButton#primary:hover { background: #096b64; }
+QPushButton#primary:disabled { color: #8298a1; background: #e4ecef; border-color: #e4ecef; }
+QPushButton#stop { color: #ffffff; font-weight: 700; background: #ac3442; border-color: #c84d59; min-height: 34px; }
+QPushButton#stop:hover { background: #972431; }
+QPushButton#stop:disabled { color: #c1cedc; background: #263d55; border-color: #405772; }
+QPushButton[tab="true"] { background: transparent; border: 1px solid transparent; color: #536a84; font-weight: 600; min-height: 32px; }
+QPushButton[tab="true"]:hover { background: #edf5fb; }
+QPushButton[tab="true"]:checked { background: #dff4ef; border-color: #bce4da; color: #05665d; }
+QComboBox, QSpinBox, QDoubleSpinBox, QLineEdit { min-height: 29px; border: 1px solid #cad8e6; border-radius: 6px; background: white; padding: 0 5px; selection-background-color: #d4eee9; }
+QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus, QLineEdit:focus { border-color: #0d877b; }
+QComboBox:disabled, QSpinBox:disabled, QDoubleSpinBox:disabled, QLineEdit:disabled { background: #f2f6fa; color: #71869c; }
+QCheckBox { spacing: 6px; }
+QTableWidget { gridline-color: #e8eef5; background: #ffffff; alternate-background-color: #f6f9fc; border: 1px solid #dee7f0; border-radius: 7px; selection-background-color: #def3f0; selection-color: #0b504a; }
+QHeaderView::section { background: #ecf4f6; color: #3b5c70; font-weight: 600; min-height: 26px; border: 0; padding: 3px; }
+QSlider::groove:horizontal { height: 4px; border-radius: 2px; background: #d9e5ed; }
+QSlider::sub-page:horizontal { background: #6ac1b4; border-radius: 2px; }
+QSlider::handle:horizontal { background: #087b72; width: 12px; margin: -4px 0; border-radius: 6px; }
+QScrollArea { background: transparent; border: 0; }
+QScrollBar:vertical { background: #f3f7fb; width: 9px; margin: 0; }
+QScrollBar::handle:vertical { background: #bdcddd; min-height: 18px; border-radius: 4px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0px; }
+QCheckBox::indicator { width: 14px; height: 14px; }
+QProgressBar { background: #e1ebf4; border: 0; border-radius: 3px; max-height: 5px; }
+QProgressBar::chunk { background: #0d8b7f; border-radius: 3px; }
+QFrame#scroll-content { background: #ffffff; border: 0; }
